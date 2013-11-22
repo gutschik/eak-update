@@ -1,6 +1,6 @@
 #!/bin/bash
 # Ember app kit version update
-APPDIR="/home/nico/Code/squire/hub/src/gui"
+APPDIR="~/myprojectdir"
 PATCHDIR="/tmp/eakpatch"
 EAKDIR="/tmp/ember-app-kit-master"
 
