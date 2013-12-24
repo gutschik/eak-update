@@ -21,6 +21,9 @@ echo "updating tasks directory"
 rm -rf ${APPDIR}/tasks/*
 cp -r ${EAKDIR}/tasks/* ${APPDIR}/tasks/
 
+# API-stub directory
+mkdir -p ${APPDIR}/api-stub
+
 cd ${APPDIR}
 echo "running npm update"
 npm update
