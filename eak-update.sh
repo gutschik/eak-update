@@ -5,7 +5,7 @@ PATCHDIR="/tmp/eakpatch"
 EAKDIR="/tmp/ember-app-kit-master"
 
 # first generate patches of important files
-FILES="bower.json package.json Gruntfile.js karma.conf.js .jshintrc .bowerrc" # app/app.js app/adapters/application.js"
+FILES="bower.json package.json Gruntfile.js testem.json .jshintrc .bowerrc" # app/app.js app/adapters/application.js"
 
 echo "Patching application code with updates"
 mkdir -p ${PATCHDIR}
