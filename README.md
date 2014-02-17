@@ -12,7 +12,7 @@ Getting Started
 ===============
 
 * Get the latest release ([tar.gz](https://github.com/stefanpenner/ember-app-kit/archive/master.tar.gz) or [zip](https://github.com/stefanpenner/ember-app-kit/archive/master.zip))
-* Downoad eak-update.sh
+* Download eak-update.sh
 * Extract the EAK release into a directory (the script assumes /tmp)
 * Update the `APPDIR` variable in eak-update.sh to point to your application
 * run `eak-update.sh`  (make sure its executable)
